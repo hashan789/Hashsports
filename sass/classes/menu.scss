@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@600&family=Roboto+Slab:wght@500&family=Poppins:wght@700&display=swap');
+
+.full-mnu,.full1-mnu{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.full-mnu{
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:600px){
+    .m-cart-mnu img{
+        width: 15px;
+        height: 15px;
+    }
+    .menu1-mnu img{
+        width: 15px;
+        height: 15px;
+    }
+    .h4-mnu{
+        font-size: 8px;
+    }
+    .log-mnu{
+        width: 75px;
+        height: 75px;
+    }
+    .item-num-mnu{
+        width: 15px;
+        height: 15px;
+        top:-7px;
+    }
+    .full-mnu{
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width:768px) and (min-width:600px){
+    .m-cart-mnu img{
+        width: 30px;
+        height: 30px;
+    }
+    .menu1-mnu img{
+        width: 30px;
+        height: 30px;
+    }
+    .cart-mnu{
+        margin-right: 15px;
+    }
+    .log-mnu{
+        width: 100px;
+        height: 100px;
+    }
+    .item-num-mnu{
+        width: 30px;
+        height: 30px;
+        top:-12px;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+    /*For mobile phones*/
+       /* .menu4-mnu ul{
+            display: none;
+        }*/
+        .menu2-mnu.menu6-mnu.menu8-mnu{
+            display: none;
+        }
+        .menu5-mnu{
+            display: inline-flex;
+            float: right;
+            padding-left: 0.01ch;
+            padding-right: 0.01ch;
+        }
+        .cart1-mnu{
+            display: none;
+        }
+        .full-mnu{
+            margin-top: 15px;
+        }
+}
+
+@media only screen and (min-width:768px){
+    /*For large phones*/
+    .menu1-mnu{
+        display: none;
+    }
+    .log-mnu{
+        display: none;
+    }
+    .menu5-mnu img{
+        margin-right: 20px;
+    }
+    .menu5-mnu img{
+        padding-left: 0.5ch;
+        padding-right: 0.5ch;
+    }
+    .menu1-mnu:first-child{
+        float: right;
+    }
+    .menu1-mnu img{
+        display: none;
+    }
+    .m-cart-mnu img{
+        width: 40px;
+        height: 30px;
+    }
+    .item-num-mnu{
+        width: 30px;
+        height: 30px;
+        top: -15px;
+    }
+    .logo-mnu{
+        width: 100px;
+        height: 100px;
+    }
+} 
+
+@media only screen and (max-width:992px) and (min-width:768px){
+    .list-mnu li{
+         font-size: 1.3ch;
+    }
+    .m-cart-mnu img{
+        width: 30px;
+        height: 20px;
+    }
+    .item-num-mnu{
+        width: 20px;
+        height: 20px;
+        top:-10px;
+    }
+    .h4-mnu{
+        font-size: 10px;
+    }
+    .logo-mnu{
+        width: 100px;
+        height: 100px;
+    }
+    .full-mnu{
+        margin-top: 20px;
+    }
+
+}
+
+@media only screen and (min-width:992px){
+    /*For laptops and desktops*/
+    .list-mnu li{
+        font-size: 1.6ch;
+    }
+    .logo-mnu{
+        width: 100px;
+        height: 100px;
+    }
+    .full-mnu{
+        margin-top: 30px;
+    }
+}
+
+
+.menu2-mnu,.menu5-mnu{
+    width: 15%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .menu2-mnu{
+    width: 20%;
+    height: 200px;
+}*/
+
+/* .full-mnu,.full1-mnu,.menu1-mnu,.menu2-mnu,.menu3-mnu,.menu4-mnu,.menu5-mnu{
+    border: 1px solid black;
+}*/
+
+[class*="menu"]{
+     margin-top: 10px;
+}
+
+.gap{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.menu4-mnu{
+    width: 70%;
+    height: 100px;
+}
+
+.menu2-mnu{
+    width: 15%;
+    height: 100px;
+    margin-bottom: 5px;
+    display: inline-flex;
+    position: relative;
+}
+
+.list-mnu li{
+    list-style-type: none;
+    display: inline-flex;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+}
+
+.list-mnu li:not(last-child){
+    margin-right: 30px;
+}
+
+.menu5-mnu,.menu2-mnu{
+    position: relative;
+    top:-2.5ch;
+}
+
+.item-num-mnu{
+    position: absolute;
+    left: 20%;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.menu4-mnu img{
+    position:relative;
+    left:15%;
+    top:-15%;
+}
+
+.menu5-mnu .m-cart-mnu{
+    position: absolute;
+    right: 0ch;
+}
+
+.list-mnu li a {
+    text-decoration: none;
+    color: black;
+}
+
+.h4-mnu{
+    position: absolute;
+    top:10%;
+    left:30%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu1-mnu{
+    padding-left: 10px;
+}

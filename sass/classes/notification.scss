@@ -1,0 +1,38 @@
+.col-3 form {
+    max-width: 300px;
+    padding: 0 0px;
+    position: absolute;
+    top: 20%;
+    margin-left: -5%;
+}
+.box{
+    position:absolute;
+    width:50%;
+    height:300px;
+    background-color: blanchedalmond;
+    color: black;
+    text-align: center;
+    top:15%;
+  /*  left:25%; */
+    border:1px solid black;
+    z-index:0;
+}
+.hide{
+   visibility: hidden;
+}
+.close{
+    display:none;
+}
+.body{
+    z-index:0;
+    background-color: black;
+    opacity:0.3;
+}
+#line {
+    width: 100px;
+    border: none;
+    background: red;
+    height: 3px;
+    margin-top: 8px;
+    transform: translateX(100px);
+}

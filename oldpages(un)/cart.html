@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="colom.css">
+    <script src="work.js"></script>
+    <title>Add to cart</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-1 menu">
+            <div class="single-product">
+                <img src="sportsimages/images/menu.png" alt="" width="30px" height="30px" class="menu-icon left" onclick="menu();">
+                <img src="sportsimages/images/hashsports.png" alt="logo" class="logo">
+                <img src="sportsimages/images/cart.png" alt="" class="right" width="30px" height="30px">
+            </div>
+            <div class="menulist">
+            <ul id="menu-items">
+                <li><a href="products.html">products</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="account.html">account</a></li>
+            </ul>
+            <script src="menu.js"></script>
+            </div>
+        </div>
+    <div class="col-1">
+        <div class="col-2"></div>
+        <div class="col-4 small-cont">
+             <table>
+                 <tr>
+                     <th>Product</th>
+                     <th>Quantity</th>
+                     <th>Subtotal</th>
+                 </tr>
+                 <tr>
+                     <td>
+                       <div class="product-info">
+                           <img src="sportsimages/images/buy-1.jpg" alt="img5">
+                           <div class="">
+                               <p>Red Printed t-shirt</p>
+                                <a href="">Remove</a>
+                           </div>
+                       </div>  
+                     </td>
+                     <td><input type="number" value="1"></td>
+                     <td>$50.00</td>
+                 </tr>
+             </table>
+             <br><br>
+             <div class="total-price">
+             <table>
+                 <tr>
+                     <td>Subtotal</td>
+                     <td>$125.00</td>
+                 </tr>
+                 <tr>
+                     <td>Tax</td>
+                     <td>$35.00</td>
+                 </tr>
+                 <tr>
+                     <td>Total</td>
+                     <td>$160.00</td>
+                 </tr>
+             </table>
+             </div>
+        <button class="proceed">Go to checkout</button>
+    </div>
+    </div>
+    <footer>
+    <div class="col-1 bg-down">
+        <div class="col-5">
+            <h3 class="center font1">Logo</h3>
+        </div>
+        <div class="col-5">
+            <h3 class="center font1">Useful Links</h3>
+        </div>
+        <div class="col-6">
+            <h3 class="center font1">Follow us</h3>
+        </div>
+    </div>
+    </footer>
+    </div>
+</body>
+</html>

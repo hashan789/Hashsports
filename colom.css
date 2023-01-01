@@ -1,0 +1,505 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+
+[class*="col-"]{
+    float: left;
+    padding-left:0px;
+  /*  border:1px solid black;*/
+    height:auto;
+}
+
+.row::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (max-width:600px){
+    /*For mobile phones*/
+    [class*="col-"]{
+        width:100%;
+    }
+    .col-5{width:50%;}
+    .big{
+        font-size:20px;
+    }
+
+    .menulist{
+        z-index: 100;
+    }
+
+    .menulist ul{
+        position: absolute;
+        top:100px;
+        float: left;
+        width:100%;
+       /* max-height: 0px;*/
+        background-color: black;
+        z-index: 100;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        text-align: initial;
+        left: 0px;
+    }
+    /*.list{
+        max-height: 0px;
+    }*/
+    .menulist ul li{
+        display: block;
+       /* padding-top: 30px;*/
+    }
+    .menulist ul li a{
+        color: white;
+
+    }
+    .menu-icon{
+        display:inline;
+        cursor: pointer;
+        visibility: visible;
+        width:5%;
+    }
+
+    .single-product .logo{
+        image-rendering: auto;
+        width: 20%;
+        height: 15%;
+        left:-5%;
+    }
+
+    .menu{
+        overflow: hidden;
+    }
+
+    .cart-img,.menu-icon,.logo {
+        position: absolute;
+        top:40px;
+        bottom: 40px;
+    }
+
+    .listbox{
+        display: inline-block;
+    }
+
+    .comment .comm{
+        text-align: center;
+        display: block;
+        margin-left: 0ch;
+        margin-right: 0ch;
+    }
+
+    .listbox ul li,.listbox1 ul li{
+        width:100px;
+        height:100px;
+    }
+
+    .row1, .listbox1 .row1 {
+      /*  display: block;*/
+        margin: 10px;
+        list-style-type: none;
+        position: static;
+      /*  margin-bottom: 200px;*/
+    }
+
+    .special1 .listbox .row1,.special1 .listbox1 .row1 {
+        display: inline-block;
+        margin: 30px;
+        list-style-type: none;
+        position: static;
+        margin-bottom: 200px;
+    }
+
+    .special1 .listbox1 .row1 {
+        display: inline-block;
+       /* margin-right: 120px;
+        margin-bottom: 150px;
+        margin-left: 0px;*/
+    }
+
+    .listbox .row1,.listbox1 .row1{
+        overflow: visible;
+    }
+
+    .listbox .card-color{
+         transform:translateY(65%);
+    }
+
+    .listbox1 .card-color{
+        transform:translateX(100%);
+    }
+
+    .btn-view{
+        display: block;
+        margin-left: 0ch;
+        margin-right: 0ch;
+    }
+
+    .listbox1.prod{
+        display: block;
+        margin-left: 0ch;
+        margin-right: 0ch;
+        margin-top: 50px;
+    }
+
+    #prev-btn{
+        position: absolute;
+        top:30%;
+        left:30%;
+        z-index: 1;
+    }
+
+    #next-btn{
+        position: absolute;
+        top:30%;
+        left:60%;
+        z-index: 1;
+    }
+
+    .box{
+        width:75%;
+        display: block;
+        margin-left:-10ch;
+        margin-right: 0ch;
+        position: absolute;
+    }
+
+    .user-box .col-4 .font1{
+        font-size: 2ch;
+    }
+
+    .arrow #next-btn{
+        position: relative;
+        color: black;
+        font-size: 1.5em;
+        float: unset;
+        margin-left: 60px;
+    }
+
+    .arrow #prev-btn{
+        position: relative;
+        float: left;
+        color: black;
+        font-size: 1.5em;
+        margin-left: -60px;
+    }
+
+    .card-color{
+        color: black;
+        background-image: unset;
+    }
+
+    .card-color h4,.card-color p{
+        color: black;
+        font-size: 0.9em;
+    }
+
+    .single-product p.font1{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .single-product h5.font1{
+        text-align: center;
+    }
+
+    #signup h2.font1{
+        font-size: 15px;
+    }
+
+    .border-log.box input{
+        display: block;
+        margin-left: 0ch;
+        margin-right: 0ch;
+    }
+
+    #signup{
+        width: 80%;
+    }
+       
+    .right{
+        margin-top: -10.5%;
+        margin-right: -5%;
+    }
+    
+    .thank {
+        width: 50%;
+        position: relative;
+        left: 12.5%;
+    }
+
+    .col-1.single-product{
+        margin-top: 50px;
+    }
+
+    .bg-down .col-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .font1.fHead {
+        font-size: 15px;
+    }
+
+    .footer .font1 {
+        font-size: 10px;
+    }
+    
+    .footer i {
+        font-size: 10px;
+    }  
+    
+    .font1.copyright {
+        margin-top: 30px;
+        font-size: 10px;
+    }    
+}
+
+@media only screen and (max-width:768px) and (min-width:600px){
+    /*For tablets*/
+    [class*="col-"]{
+        width:100%;
+    }
+    .col-5{width:50%;}
+    .big{
+        font-size:25px;
+    }
+    .nav-manual{
+        margin-top: -125px;
+    }
+    .menulist ul li{
+        margin:5px;
+        font-size: 12px;
+    }
+    .right{
+        margin-top: -7.5%;
+    }
+
+    .listbox{
+        display: inline-block;
+    }
+
+    .row1,.listbox1 .row1{
+        display: inline-block;
+        margin: 30px;
+        list-style-type: none;
+        position: static;
+    }
+
+    .proceed{
+        display: block;
+        margin-left: 0ch;
+        margin-right: 0ch;
+        margin: 0ch;
+    }
+
+    .comment .comm{
+        display: block;
+    }
+
+    .listbox ul li, .listbox1 ul li {
+        width: 200px;
+        height: 200px;
+    }
+
+    .listbox1.prod {
+        display: block;
+        margin-left: 0ch;
+        margin-right: 0ch;
+        margin-top: 50px;
+    }
+
+    .card-color{
+        transform: translateY(0%);
+    }
+
+    .listbox1 .card-color{
+        transform: translateY(0%);
+    }
+
+    .single-product .logo{
+        image-rendering: auto;
+        width: 20%;
+        height: 15%;
+        left:-5%;
+    }
+
+    .cart-img, .menu-icon, .logo {
+        position: absolute;
+        top: 40px;
+        bottom: 40px;
+    }
+    
+    .menu-icon {
+        display: inline;
+        cursor: pointer;
+        visibility: visible;
+        width: 5%;
+    }
+
+    .menulist ul {
+        position: absolute;
+        top: 100px;
+        float: left;
+        width: 100%;
+        max-height: 0px;
+        background-color: black;
+        z-index: 100;
+        overflow: hidden;
+        transition: max-height 0.5s;
+        text-align: initial;
+    }
+
+    .menulist ul li {
+        display: block;
+        font-size: 15px;
+        margin: 30px;
+    }    
+
+    .menulist ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .bg-down .col-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .font1.fHead {
+        font-size: 15px;
+    }
+
+    .footer .font1 {
+        font-size: 10px;
+    }
+    
+    .footer i {
+        font-size: 10px;
+    }  
+    
+    .font1.copyright {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width:992px) and (min-width:768px){
+    /*For laptops*/
+    [class*="col-"]{
+        width:100%;
+    }
+    .col-5{width:50%;}
+    .big{
+        font-size:25px;
+    }
+    .menulist ul li{
+        margin:10px;
+        font-size: 15px;
+    }
+    .right{
+        margin-top: -6.5%;
+    }
+
+    .listbox{
+        display: inline-block;
+    }
+
+    .listbox ul li, .listbox1 ul li {
+        width: 200px;
+        height: 200px;
+    }
+
+    .listbox1 .row1{
+        margin: '';
+    }
+
+    .listbox1.prod {
+        display: block;
+        margin-left: 0ch;
+        margin-right: 0ch;
+        margin-top: 50px;
+    }
+
+    .single-product .logo{
+        image-rendering: auto;
+        width: 20%;
+        height: 15%;
+        left:-5%;
+    }
+
+    .comment .comm{
+        display: block;
+    }
+
+    .bg-down .col-6 {
+        display: flex;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .font1.fHead {
+        font-size: 15px;
+    }
+
+    .footer .font1 {
+        font-size: 10px;
+    }
+    
+    .footer i {
+        font-size: 10px;
+    }  
+    
+    .font1.copyright {
+        margin-top: 30px;
+        font-size: 10px;
+    }
+
+    .row1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width:1200px) and (min-width:992px){
+      /* For small laptops and desktops */
+      [class*="col-"]{
+        width:100%;
+    }
+    .col-5{width:50%;}
+    .menulist li {
+        display: inline-block;
+        margin: 20px;
+    }
+
+    .comment .comm {
+        display: block;
+        padding: 2.5%;
+        padding-top: 2.5%;
+        padding-top: 1.5%;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    /*For large laptops and desktops*/
+    .col-1{width:100%;}
+    .col-2{width:25%;}
+    .col-3{width:50%;}
+    .col-4{width:75%;}
+    .col-5{width:33.33%;}
+    .col-6{width:33.33%;}
+
+    .big{
+        font-size:40px;
+    }
+    .menulist{
+        position:sticky;
+        top:0px;
+    }
+}
+

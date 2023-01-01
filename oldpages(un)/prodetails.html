@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="colom.css">
+    <script src="work.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>details of Product</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-1 menu">
+            <div class="single-product">
+                <img src="sportsimages/images/menu.png" alt="" width="30px" height="30px" class="menu-icon left" onclick="menu();">
+                <img src="sportsimages/images/hashsports.png" alt="logo" class="logo">
+                <img src="sportsimages/images/cart.png" alt="" class="right" width="30px" height="30px">
+            </div>
+            <div class="menulist">
+            <ul id="menu-items">
+                <li><a href="products.html">products</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="account.html">account</a></li>
+            </ul>
+            <script src="menu.js"></script>
+            </div>
+        </div>
+    <div class="col-1">
+        <h1 class="font1" style="text-align: center;">Product details</h1>
+        <div class="col-2 single-product">
+            <i class="fas fa-arrow-right" id="next-btn"></i>  
+            <i class="fas fa-arrow-left" id="prev-btn"></i>  
+            <div class="slider">
+                <div class="slides">
+                   <!---- <i class="fas fa-arrow-right" id="next-btn"></i>  
+                    <i class="fas fa-arrow-left" id="prev-btn"></i>  -->
+                     
+                    <img src="sportsimages/images/gallery-4.jpg" id="lastphoto" alt="">
+                    <img src="sportsimages/images/gallery-1.jpg" alt="">
+                    <img src="sportsimages/images/gallery-2.jpg" alt="">
+                    <img src="sportsimages/images/gallery-3.jpg" alt="">
+                    <img src="sportsimages/images/gallery-4.jpg" alt="">
+                    <img src="sportsimages/images/gallery-1.jpg" id="firstphoto" alt="">
+
+                   <script src="products.js"></script>
+                     
+                     <br><br>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-4 single-product" style="padding-left: 30px;">
+           <select name="Size" id="Size" class="font1" style="margin-bottom: 10px;">
+               <option value="">Size</option>
+               <option value="">XXL</option>
+               <option value="">XL</option>
+               <option value="">L</option>
+               <option value="">M</option>
+               <option value="">S</option>
+           </select>
+           <input type="number" value="1">
+           <button class="btn-a btn-1"><a href="" class="font1" style="text-decoration: none;color:white;">Add to cart</a></button>
+           <h2 class="font1">Product details</h2>
+           <p></p>
+        </div>
+    </div>
+    <div class="col-1 single-product" style="padding-left: 30px;">
+        <h1 class="font1" style="float: left;">Related products</h1>
+        <h5 class="font1 right">view more</h5>
+    </div>
+    <div class="col-1 bg-down">
+        <div class="col-5">
+            <h3 class="center font1">Logo</h3>
+        </div>
+        <div class="col-5">
+            <h3 class="center font1">Useful Links</h3>
+        </div>
+        <div class="col-6">
+            <h3 class="center font1">Follow us</h3>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

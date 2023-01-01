@@ -1,0 +1,40 @@
+.img-sli{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-sli img{
+    width: 100%;
+    height: auto;
+    image-rendering: auto;
+}
+
+.slick-slide img{
+    width: 100%;
+}
+
+.body-sli{
+    overflow-x: hidden;
+}
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.slick-dots li{
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.slick-dots button{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active button{
+    background-color: #000;
+}
