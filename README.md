@@ -2,7 +2,7 @@
 
 Hashsports is an ecommerce website that sells sports equipment and apparel. It was created using HTML, SCSS, JavaScript, PHP, JSON, jQuery, and SQL. The website is designed to be user-friendly and easy to navigate. It features a wide variety of products, including basketballs, footballs, baseballs, tennis balls, jerseys, and more. Customers can browse the products by category or by brand. They can also use the search bar to find specific products.
 
-Once a customer has found the products they want, they can add them to their cart.Customers can pay with credit card or debit card.and if the customer want to purchase the products later, customer can add them to their wishlist. but in order to purchase products, you need to create an account first.
+Once a customer has found the products they want, they can add them to their cart and checkout.Customers can pay with credit card or debit card.and if the customer want to purchase the products later, customer can add them to their wishlist. but in order to purchase products, you need to create an account first.
 
 Hashsports is a great place to buy sports equipment and apparel. The website is user-friendly, secure, and offers a variety of products and shipping options.
 
