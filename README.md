@@ -16,11 +16,12 @@ Here are some of the features of the Hashsports website:
 the payment gateway for Hashsports is developed by Stripe. Stripe is a payment processing company that allows businesses to accept credit cards and other forms of payment online. Stripe is a popular choice for ecommerce businesses because it is easy to use, secure, and reliable.
 
 Stripe offers a variety of features that make it a great choice for payment processing, including:
-
-Secure checkout: Stripe uses industry-leading security measures to protect customer data.
-Global reach: Stripe supports payments in over 135 countries.
-Easy integration: Stripe integrates with a variety of ecommerce platforms, including Shopify, WooCommerce, and Magento.
-Competitive pricing: Stripe offers competitive pricing for its services.
+<ul>
+<li>Secure checkout: Stripe uses industry-leading security measures to protect customer data.</li>
+<li>Global reach: Stripe supports payments in over 135 countries.</li>
+<li>Easy integration: Stripe integrates with a variety of ecommerce platforms, including Shopify, WooCommerce, and Magento.</li>
+<li>Competitive pricing: Stripe offers competitive pricing for its services.</li>
+</ul> 
 If you are looking for a payment gateway for your ecommerce business, Stripe is a great option. It is easy to use, secure, reliable, and affordable.
 
-Now you can see the website in this link <a href="https://hashsports.me">www.hashsports.live</a>
+Now you can see the website in this link <a href="https://hashsports.me">www.hashsports.me</a>
